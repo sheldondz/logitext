@@ -1,73 +1,0 @@
-8
-
-dir
-4648
-http://174.143.181.14/svn/tastykhana/trunk/admin/logitext
-http://174.143.181.14/svn/tastykhana
-
-
-
-2011-01-14T12:50:11.882758Z
-4648
-svn
-
-
-svn:special svn:externals svn:needs-lock
-
-default.properties
-file
-
-
-
-
-2011-01-14T12:49:01.281250Z
-a8937cdc9ddc7b008feb3c319c426d9e
-2011-01-14T12:50:11.882758Z
-4648
-svn
-
-proguard.cfg
-file
-
-
-
-
-2011-01-14T12:49:01.281250Z
-fb3e7f47d5ddee631a437dba12a37c2e
-2011-01-14T12:50:11.882758Z
-4648
-svn
-
-assets
-dir
-
-.project
-file
-
-
-
-
-2011-01-14T12:49:01.234375Z
-bb71d0f5d5f2b6b6d4f64e229e9171ac
-2011-01-14T12:50:11.882758Z
-4648
-svn
-
-AndroidManifest.xml
-file
-
-
-
-
-2011-01-14T12:49:01.234375Z
-00fcbfd4e64018a1c2aaef073c4b9f92
-2011-01-14T12:50:11.882758Z
-4648
-svn
-
-src
-dir
-
-res
-dir
-
