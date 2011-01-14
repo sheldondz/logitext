@@ -1,0 +1,9 @@
+Logitext and extension to the KalSMS android gateway.
+
+Includes functionality to poll url after a fixed interval to fetch sms, and then sends them out
+
+KalSMS is an simple Android SMS gateway application.
+
+Info & setup here: http://wiki.github.com/niryariv/kalsms/
+
+Please contact niryariv@gmail.com with any questions or feedback.

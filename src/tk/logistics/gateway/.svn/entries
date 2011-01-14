@@ -1,0 +1,76 @@
+8
+
+dir
+4648
+http://174.143.181.14/svn/tastykhana/trunk/admin/logitext/src/tk/logistics/gateway
+http://174.143.181.14/svn/tastykhana
+
+
+
+2011-01-14T12:50:11.882758Z
+4648
+svn
+
+
+svn:special svn:externals svn:needs-lock
+
+Prefs.java
+file
+
+
+
+
+2011-01-14T12:49:01.312500Z
+b09c0de2f2a60bc060d2850eceb08f9f
+2011-01-14T12:50:11.882758Z
+4648
+svn
+
+TargetUrlRequest.java
+file
+
+
+
+
+2011-01-14T12:49:01.312500Z
+d94d417e9c429a3d619581b01706a693
+2011-01-14T12:50:11.882758Z
+4648
+svn
+
+SMSSender.java
+file
+
+
+
+
+2011-01-14T12:49:01.312500Z
+80932e431eb263ce04474c0045663e45
+2011-01-14T12:50:11.882758Z
+4648
+svn
+
+Main.java
+file
+
+
+
+
+2011-01-14T12:49:01.312500Z
+e15d6dc529290fad27d825de442d9094
+2011-01-14T12:50:11.882758Z
+4648
+svn
+
+SMSReceiver.java
+file
+
+
+
+
+2011-01-14T12:49:01.312500Z
+386167166376ccaa826f6dd26a69eac7
+2011-01-14T12:50:11.882758Z
+4648
+svn
+
