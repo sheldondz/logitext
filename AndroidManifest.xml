@@ -26,6 +26,13 @@
  		
  		<receiver android:name=".SMSSender">
 		</receiver>
+		
+		<receiver android:name=".SMSStatusUpdate">
+			<intent-filter>
+				<action android:name="tk.logistics.gateway.SMS_SENT" />
+				<action android:name="tk.logistics.gateway.SMS_DELIVERED" />
+			</intent-filter>
+		</receiver>
 
 		<activity android:name=".Prefs"
 	          android:label="@string/app_name">

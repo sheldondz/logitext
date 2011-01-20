@@ -1,6 +1,8 @@
 package tk.logistics.gateway;
 
 import java.util.ArrayList;
+
+import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -55,7 +57,13 @@ public class SMSReceiver extends BroadcastReceiver {
 						String sendMsg = items.get(j).get(1);
 						try {
 							Log.d("KALSMS", "SEND MSG:\"" + sendMsg + "\" TO: " + sendTo);
-							smgr.sendTextMessage(sendTo, null, sendMsg, null, null);
+							Intent sintent = new Intent(context, SMSStatusUpdate.class);
+							sintent.setAction("tk.logistics.gateway.SMS_SENT");
+					    	PendingIntent sentIntent = PendingIntent.getBroadcast(context,0,sintent, 0);
+					    	Intent dintent = new Intent(context, SMSStatusUpdate.class);
+					    	dintent.setAction("tk.logistics.gateway.SMS_DELIVERED");
+					    	PendingIntent deliveryIntent = PendingIntent.getBroadcast(context,0,dintent, 0);
+							smgr.sendTextMessage(sendTo, null, sendMsg, sentIntent, deliveryIntent);
 						} catch (Exception ex) {
 							Log.d("KALSMS", "SMS FAILED");
 						}
